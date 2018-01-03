@@ -1,0 +1,6 @@
+<kobalt-plugin>
+    <name>pom2xml</name>
+    <plugin-actors>
+        <class-name>net.thauvin.erik.kobalt.plugin.pom2xml.Pom2XmlPlugin</class-name>
+    </plugin-actors>
+</kobalt-plugin>
