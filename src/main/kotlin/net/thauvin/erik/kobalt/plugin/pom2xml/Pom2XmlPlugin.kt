@@ -70,7 +70,7 @@ class Pom2XmlPlugin @Inject constructor(private val configActor: ConfigActor<Pom
         configurationFor(project)?.let { config ->
             if (config.name.isNotBlank()) {
                 val loc = File(config.loc + if (config.loc.endsWith(File.separator)) "" else File.separator)
-                if (loc.isDirectory) {
+                if (loc.exists() && loc.isDirectory) {
                     // Write POM
                     File(loc, config.name).writeText(context.generatePom(project))
                 } else {
