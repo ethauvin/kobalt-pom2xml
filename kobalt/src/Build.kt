@@ -16,7 +16,7 @@ val bs = buildScript {
 }
 
 val dev by profile()
-val kobaltDependency = if (dev) "kobalt-plugin-api" else "kobalt-plugin-api"
+val kobaltDependency = if (dev) "kobalt" else "kobalt-plugin-api"
 
 val p = project {
 
@@ -45,7 +45,7 @@ val p = project {
     }
 
     dependencies {
-        compile("com.beust:$kobaltDependency:")
+        compileOnly("com.beust:$kobaltDependency:")
         compile("org.jetbrains.kotlin:kotlin-stdlib:1.2.10")
     }
 
