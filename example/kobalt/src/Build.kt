@@ -7,7 +7,7 @@ import net.thauvin.erik.kobalt.plugin.pom2xml.*
 
 val bs = buildScript {
     repos(localMaven())
-    plugins("net.thauvin.erik:kobalt-pom2xml:0.1.0")
+    plugins("net.thauvin.erik:kobalt-pom2xml:")
 }
 
 val p = project {
