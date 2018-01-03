@@ -26,6 +26,12 @@ val p = project {
 }
 ```
 
+To invoke the `pom2xml` task:
+
+```sh
+./kobaltw pom2xml
+```
+
 The `pom.xml` file will be created in the project's directory.
 
 [View Example](https://github.com/ethauvin/kobalt-pom2xml/blob/master/example/kobalt/src/Build.kt)
