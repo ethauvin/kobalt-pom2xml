@@ -5,7 +5,7 @@
 
 The plug-in will generate a [Project Object Model](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html) (POM) XML file for your project.
 
-To use the plug-in include the following in `Build.kt` file:
+To use the plug-in include the following in `Build.kt`:
 
 ```kotlin
 import net.thauvin.erik.kobalt.plugin.pom2xml.*
