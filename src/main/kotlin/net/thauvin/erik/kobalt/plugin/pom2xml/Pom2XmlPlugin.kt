@@ -1,5 +1,5 @@
 /*
- * VersionEyePlugin.kt
+ * Pom2XmlPlugin.kt
  *
  * Copyright (c) 2018, Erik C. Thauvin (erik@thauvin.net)
  * All rights reserved.
@@ -39,7 +39,6 @@ import com.beust.kobalt.api.annotation.Task
 import com.beust.kobalt.misc.warn
 import com.google.inject.Inject
 import com.google.inject.Singleton
-
 import java.io.File
 
 @Singleton
