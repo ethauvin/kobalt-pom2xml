@@ -42,8 +42,8 @@ The following optional configuration parameters are available.
 
 Attribute       | Description
 :---------------|:----------------------------------------------------------------------------------
-`name`          | The directory location to save the POM file to, defaults to the project directory.
-`loc`           | The name of the POM file, defaults to `pom.xml`.
+`loc`          | The directory location to save the POM file to, defaults to the project directory.
+`name`           | The name of the POM file, defaults to `pom.xml`.
 
 For example:
 
